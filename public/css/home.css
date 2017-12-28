@@ -1,0 +1,13 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+html,body{
+
+}
+.nav-holder{
+  background: #69054E ; /* For browsers that do not support gradients */
+    background: linear-gradient(to right, #69054E , #97042F);
+    width: 100%;
+}
