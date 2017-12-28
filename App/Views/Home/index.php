@@ -26,16 +26,16 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav">
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Home</a>
+                      <a class="nav-link" href="#"><i class="ion-ios-home-outline hc-icon-size"></i>Home</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Messages</a>
+                      <a class="nav-link" href="#"><i class="ion-paper-airplane hc-icon-size"></i> Messages</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Notification</a>
+                      <a class="nav-link" href="#"><i class="ion-android-notifications-none hc-icon-size"></i>Notification</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Create Story</a>
+                      <a class="nav-link" href="#"><i class="ion-edit hc-icon-size"></i> Create Story</a>
                     </li>
                   </ul>
                 </div>
