@@ -63,13 +63,13 @@
                     <div class="row">
                       <div class="form-group col-xs-12 form-shift">
                         <label for="email" class="sr-only">Email</label>
-                        <input id="email" class="form-control input-group-lg" type="text" name="Email" title="Enter Email" placeholder="Your Email"/>
+                        <input id="email" class="form-control input-group-lg long-input" type="text" name="Email" title="Enter Email" placeholder="Your Email"/>
                       </div>
                     </div>
                     <div class="row">
                       <div class="form-group col-xs-12 form-shift">
                         <label for="password" class="sr-only">Password</label>
-                        <input id="password" class="form-control input-group-lg" type="password" name="password" title="Enter password" placeholder="Password"/>
+                        <input id="password" class="form-control input-group-lg long-input" type="password" name="password" title="Enter password" placeholder="Password"/>
                       </div>
                     </div>
                     <div class="row">

@@ -4,6 +4,7 @@ body{
   line-height: 26px;
 	color: #6d6e71;
   font-size: 13px;
+  height: 100%;
 }
 
 button{
@@ -21,6 +22,28 @@ button{
 
 .form-shift{
   margin-right: 10px;
+}
+
+.long-input{
+  width: 205% !important;
+}
+
+@media only screen and (max-width: 993px){
+	.long-input{
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 566px){
+	.long-input{
+    width: 205% !important;
+  }
+}
+
+@media only screen and (max-width: 430px){
+	.long-input{
+    width: 100% !important;
+  }
 }
 
 .btn-primary{
@@ -51,11 +74,11 @@ button{
   position: absolute;
   top: 0;
   width: 100%;
+  height: 100%;
 }
 
 #lp-register .wrapper{
-  padding-top: 140px;
-  padding-bottom: 280px;
+  padding-top: 12%;
 }
 
 .our-bg-color{
