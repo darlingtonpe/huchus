@@ -4,10 +4,34 @@
   box-sizing: border-box;
 }
 html,body{
-
+background: #E6ECF0;
 }
 .nav-holder{
   background: #69054E ; /* For browsers that do not support gradients */
     background: linear-gradient(to right, #69054E , #97042F);
     width: 100%;
+}
+.text-area{
+  resize: none;
+}
+.icons-style{
+  border-radius: 5px;
+  /*background: #B90366  ;*/
+    /*background: linear-gradient(to left, #B90366   , #B90366);*/
+    padding: 10px;
+    color:#B90366;
+    margin-top:10px;
+    font-size: 20px;
+    border: 1px solid #B90366;
+}
+.hc-icon-size{
+  font-size: 20px;
+}
+.hc-search{
+  border-radius: 20px;
+  margin-top: 3px;
+}
+.icons-style:hover{
+  /*padding: 15px;*/
+  border: 1px solid red;
 }
