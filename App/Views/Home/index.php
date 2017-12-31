@@ -95,29 +95,38 @@
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
+      
       <div class="modal-body">
-              <div class="form-group">
-                <textarea class="form-control text-area editor" id="editor"rows="3"></textarea>
-
-              </div>
-              <div class="form-group">
-              <div class="row">
-                <div class="col-md-2">
-                    <i class="ion-android-image hc-icon-size icons-style"></i>
-                </div>
-                <div class="col-md-2">
-                    <i class="ion-android-notifications-none hc-icon-size icons-style"></i>
-                </div>
-              </div>
-              </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn  icons-style">Save changes</button>
-      </div>
+      
+                  <div class="form-group">
+                    <textarea class="form-control text-area editor" id="editor" rows="3"></textarea>
+                  </div>
+      
+                  <div class="form-group down-pad">
+                    <div class="row">
+                      <div class="col-sm-2">
+                          <i class="ion-android-image hc-icon-size icons-style add-cursor"></i>
+                      </div>
+                      <div class="col-sm-2">
+                          <i class="ion-pricetag hc-icon-size icons-style move-back add-cursor"></i>
+                      </div>
+                      <div class="offset-sm-3 col-md-2">
+                        <button type="button" class="btn btn-danger add-cursor" data-dismiss="modal">Close</button>
+                      </div>
+                      <div class="col-sm-2">
+                        <button type="button" class="btn btn-primary add-story add-cursor">Add Story</button>
+                      </div>
+                    </div>
+                  </div>
+      
+            </div>
     </div>
   </div>
 </div>
+
+
+
+
           <!--scripts-->
           <script src="./public/js/jquery.min.js"></script>
           <script src="./public/js/bootstrap.js"></script>
