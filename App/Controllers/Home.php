@@ -47,8 +47,6 @@ class Home extends \Core\Controller
     }
     public function homeAction()
     {
-        $g = Register::getAll();
-
 
         View::render('Home/index.php');
     }

@@ -26,9 +26,9 @@ class Register extends Model
      }
     public static function getAll()
     {
-            $users= Model::getDb()->query("SELECT * FROM users");
-
-            return $users;
+            // $users= Model::getDb()->query("SELECT * FROM users");
+            //
+            // return $users;
 
     }
     // public static function saveInfo($val,$val2){
