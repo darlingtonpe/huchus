@@ -31,19 +31,19 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav">
                     <li class="nav-item">
-                      <a class="nav-link" href="#"><i class="ion-ios-home-outline hc-icon-size"></i> Home</a>
+                      <a class="nav-link" href="#"><i class="ion-ios-home hc-icon-size"></i> Home</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#"><i class="ion-paper-airplane hc-icon-size"></i> Messages</a>
+                      <a class="nav-link" href="#"><i class="ion-android-chat hc-icon-size"></i> Chats</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#"><i class="ion-android-notifications-none hc-icon-size"></i> Notification</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link"data-toggle="modal" data-target="#createStory"><i class="ion-edit hc-icon-size"></i> Create Story</a>
+                      <a class="nav-link"data-toggle="modal" data-target="#createStory"><i class="ion-ios-paper hc-icon-size"></i> Create Story</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link"data-toggle="tooltip" data-html="true" title="Join a circle"><i class="ion-ios-people-outline hc-icon-size"></i></a>
+                      <a class="nav-link"data-toggle="tooltip" data-html="true" title="Join a circle"><i class="ion-ios-people hc-icon-size"></i></a>
                     </li>
 
                   </ul>
@@ -105,11 +105,14 @@
                   <div class="form-group down-pad">
                     <div class="row">
                       <div class="col-sm-2">
-                          <i class="ion-ios-camera hc-icon-size icons-style add-cursor"></i>
+                          <i type="image" class="ion-ios-camera hc-icon-size icons-style add-cursor"></i>
+                          <input type="file" id="hc-file" style="display: none;" />
                       </div>
                       <div class="col-sm-2">
-                          <i class="ion-pricetag hc-icon-size icons-style move-back add-cursor"></i>
+                          <i class="ion-android-pin hc-icon-size icons-style move-back add-cursor" data-toggle="modal" data-target="#Tag" data-whatever="@getbootstrap"></i>
                       </div>
+
+
                       <div class="offset-sm-3 col-md-2">
                         <button type="button" class="btn btn-danger add-cursor" data-dismiss="modal">Close</button>
                       </div>
@@ -125,12 +128,39 @@
 </div>
 
 
+<div class="modal fade" id="Tag" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Location Name:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Add</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
 
           <!--scripts-->
           <script src="./public/js/jquery.min.js"></script>
           <script src="./public/js/bootstrap.js"></script>
           <script src="./public/js/popper.min.js"></script>
+          <script src="./public/js/app.js"></script>
 
 
   </body>
