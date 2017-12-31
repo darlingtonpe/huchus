@@ -79,7 +79,7 @@
           <nav class="navbar navbar-expand-lg navbar-light">
             <div class="form-group">
               <label for="exampleFormControlSelect1">Category</label>
-              <select class="form-control" id="exampleFormControlSelect1">
+              <select class="form-control add-cursor" id="exampleFormControlSelect1">
                 <option select>Category</option>
                 <option>Inspirational</option>
                 <option>News</option>
@@ -92,10 +92,10 @@
         </div>
         <!--modal title ends here -->
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
+          <span aria-hidden="true" class="add-cursor">&times;</span>
         </button>
       </div>
-      
+
       <div class="modal-body">
       
                   <div class="form-group">
