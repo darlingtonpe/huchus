@@ -47,6 +47,9 @@ class Register extends Model
     //     $db = static::getDb();
     //     $stmt = $db->prepare("DELETE FROM play WHERE id ='$val'");
     //     return $stmt->execute();
+
+
+    //kskdkkd
     // }
     public static function preDb($name,$number)
     {
