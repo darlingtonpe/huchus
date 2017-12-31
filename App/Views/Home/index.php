@@ -16,6 +16,9 @@
     <script src="./public/js/app.js"></script>
 
 
+
+<!--check the icon, it\s not supposed to be there  -->
+
     </head>
   <body>
         <!-- nav holder starts here -->
