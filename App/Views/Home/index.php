@@ -97,15 +97,15 @@
       </div>
 
       <div class="modal-body">
-      
+
                   <div class="form-group">
                     <textarea class="form-control text-area editor" id="editor" rows="3"></textarea>
                   </div>
-      
+
                   <div class="form-group down-pad">
                     <div class="row">
                       <div class="col-sm-2">
-                          <i class="ion-android-image hc-icon-size icons-style add-cursor"></i>
+                          <i class="ion-ios-camera hc-icon-size icons-style add-cursor"></i>
                       </div>
                       <div class="col-sm-2">
                           <i class="ion-pricetag hc-icon-size icons-style move-back add-cursor"></i>
@@ -118,7 +118,7 @@
                       </div>
                     </div>
                   </div>
-      
+
             </div>
     </div>
   </div>
