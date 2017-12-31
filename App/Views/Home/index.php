@@ -44,28 +44,22 @@
                     </li>
 
                   </ul>
-                </div>
 
-                <div class="collapse navbar-collapse float-right" id="navbarNav">
-                  <ul class="nav navbar-nav navbar-right hc-search">
-                      <li>
-                          <input type="text" class="form-control hc-search"
-                           placeholder="Search...">
-                      </li>
 
-                      <li>
 
-                          <a class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <img src="public/images/avatar.png" class="img-circle" />
-                          </a>
 
-                      </li>
+                      <div class="push-right">
+                        <ul class="nav navbar-nav float-sm-right">
+                          <li>
+                              <input type="text" class="form-control hc-search hc-large"
+                               placeholder="Search...">
+                          </li>
+
+                      </div>
 
                   </ul>
+
                 </div>
-
-
-
               </nav>
             </div>
           </div>
@@ -116,7 +110,7 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn  icons-style">Save changes</button>
       </div>
     </div>
   </div>

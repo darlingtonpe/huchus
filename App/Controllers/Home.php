@@ -2,7 +2,9 @@
 
 namespace App\Controllers;
 
-use \Core\View;
+use Core\View;
+use App\Models\Register;
+
 
 /**
  * Home controller from codefii
@@ -40,10 +42,15 @@ class Home extends \Core\Controller
      */
     public function indexAction()
     {
-        View::render('LandingPage/index.php');
+            $generate = Register::generate();
+            View::render('LandingPage/index.php',['token'=>$generate]);
     }
     public function homeAction()
     {
+        $g = Register::getAll();
+
+
         View::render('Home/index.php');
     }
+
 }

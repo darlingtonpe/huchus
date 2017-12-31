@@ -1,6 +1,9 @@
 <?php
 namespace Core\Helpers;
+
+use Core\Config;
 use Core\Helpers\Session;
+
 class Token
 {
   public static function generate()

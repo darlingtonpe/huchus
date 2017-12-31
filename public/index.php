@@ -16,9 +16,6 @@ require '../Core/Routes.php';
 /**
  * Twig
  */
-// Twig_Autoloader::register();
-
-
 /**
  * Routing
  */

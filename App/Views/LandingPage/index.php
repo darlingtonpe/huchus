@@ -22,7 +22,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i" rel="stylesheet">
   </head>
   <body>
-
+    <?php ?>
 
   <div id="lp-register">
     	<div class="container wrapper">
@@ -118,6 +118,7 @@
                     </div>
                   </form>
                   <p><a class="our-txt-color" href="#">Already have an account?</a></p>
+                  <input type="hidden" name="token" value="<?php echo htmlspecialchars($token);?>" />
                   <button class="btn btn-primary our-bg-color">Register</button>
                 </div>
 
@@ -142,6 +143,7 @@
                     </div>
                   </form>
                   <p><a class="our-txt-color" href="#">Forgot Password?</a></p>
+                  <input type="hidden" name="token" value="<?php echo htmlspecialchars($token);?>" />
                   <button class="btn btn-primary our-bg-color">Login</button>
                 </div>
               </div>
